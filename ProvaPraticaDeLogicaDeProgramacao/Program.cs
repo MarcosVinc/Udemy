@@ -347,4 +347,7 @@ namespace ProvaPraticaDeLogicaDeProgramacao
             Console.WriteLine("");
             TelaParaVoltar();
         }
+    }
 }
+/*public static void Exercicio(){}
+ */
