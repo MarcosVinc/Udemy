@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace ExerciciosSobreEstruturaCondicional
 {
@@ -15,6 +16,9 @@ namespace ExerciciosSobreEstruturaCondicional
             Console.WriteLine("Exercicio 2      digite 2");
             Console.WriteLine("Exercicio 3      digite 3");
             Console.WriteLine("Exercicio 4      digite 4");
+            Console.WriteLine("Exercicio 5      digite 5");
+            Console.WriteLine("Exercicio 6      digite 6");
+            Console.WriteLine("Exercicio 7      digite 7");
             Console.WriteLine("--------------------------");
             int esc = 0;
             if (int.TryParse(Console.ReadLine(), out esc))
@@ -41,6 +45,14 @@ namespace ExerciciosSobreEstruturaCondicional
                         Console.Clear();
                         Exercicio5();
                         break;
+                    case 6:
+                        Console.Clear();
+                        Exercicio6();
+                        break;
+                    case 7:
+                        Console.Clear();
+                        Exercicio7();
+                        break;
                 }
 
             }
@@ -65,28 +77,44 @@ namespace ExerciciosSobreEstruturaCondicional
                 }
                 else if (esc == 1)
                 {
-                    switch (esc)
+                    Console.Clear();
+                    Console.WriteLine("|-------------------------------|");
+                    Console.WriteLine("|" + "Qual exercicio quer ver ?" + "|");
+                    Console.WriteLine("|-------------------------------|");
+                    int exer1 = 0;
+                    if (int.TryParse(Console.ReadLine(), out exer1))
                     {
-                        case 1:
-                            Console.Clear();
-                            Exercicio1();
-                            break;
-                        case 2:
-                            Console.Clear();
-                            Exercicio2();
-                            break;
-                        case 3:
-                            Console.Clear();
-                            Exercicio3();
-                            break;
-                        case 4:
-                            Console.Clear();
-                            Exercicio4();
-                            break;
-                        case 5:
-                            Console.Clear();
-                            Exercicio5();
-                            break;
+                        switch (exer1)
+                        {
+                            case 1:
+                                Console.Clear();
+                                Exercicio1();
+                                break;
+                            case 2:
+                                Console.Clear();
+                                Exercicio2();
+                                break;
+                            case 3:
+                                Console.Clear();
+                                Exercicio3();
+                                break;
+                            case 4:
+                                Console.Clear();
+                                Exercicio4();
+                                break;
+                            case 5:
+                                Console.Clear();
+                                Exercicio5();
+                                break;
+                            case 6:
+                                Console.Clear();
+                                Exercicio6();
+                                break;
+                            case 7:
+                                Console.Clear();
+                                Exercicio7();
+                                break;
+                        }
                     }
                 }
                 else
@@ -300,6 +328,90 @@ namespace ExerciciosSobreEstruturaCondicional
 
             }
             TelaVoltar();
+        }
+        public static void Exercicio6()
+        {
+            Console.WriteLine("Você deve fazer um programa que leia um valor qualquer e apresente uma mensagem dizendo em qual dos");
+            Console.WriteLine("seguintes intervalos([0, 25], (25, 50], (50, 75], (75, 100]) este valor se encontra. Obviamente se o valor não estiver em");
+            Console.WriteLine("nenhum destes intervalos, deverá ser impressa a mensagem “Fora de intervalo”.");
+            Console.WriteLine("");
+            Console.Write("Digite o valor: ");
+            double valor = 0;
+            if (double.TryParse(Console.ReadLine(), out valor))
+            {
+                if (valor < 0.0 || valor > 100.0)
+                {
+                    Console.WriteLine("Fora do intervalo");
+
+                }
+                else if (valor <= 25.0)
+                {
+                    Console.WriteLine("Intervalo (0,25)");
+                }
+                else if (valor <= 50.0)
+                {
+                    Console.WriteLine("Intervalo (25,50)");
+                }
+                else if (valor <= 75.0)
+                {
+                    Console.WriteLine("Intervalo (50,75)");
+                }
+                else
+                {
+                    Console.WriteLine("Intervalo (75,100)");
+
+                }
+            }
+            else
+            {
+                Console.WriteLine("Ação invalida, precione ENTER para voltar ao exercicio: ");
+                Console.ReadLine();
+                Console.Clear();
+                Exercicio6();
+
+            }
+            TelaVoltar();
+        }
+        public static void Exercicio7()
+        {
+            Console.WriteLine("Esse exercicio foi feito usando VETOR");
+            Console.WriteLine("Leia 2 valores com uma casa decimal (X e Y),");
+            Console.WriteLine("que devem representar as coordenadas de um ponto em um plano.");
+            Console.WriteLine("A seguir determine qual o quadrante ao qual pertence o ponto,");
+            Console.WriteLine("ou se está sobre um dos eixor cartesianos ou na origem (x=y=0)");
+            Console.WriteLine("");
+            string[] numero = Console.ReadLine().Split(" ");
+            double nun1 = int.Parse(numero[0], CultureInfo.InvariantCulture);
+            double nun2 = int.Parse(numero[1], CultureInfo.InvariantCulture);
+            if (nun1 == 0.0 && nun2 == 0.0)
+            {
+                Console.WriteLine("Origem");
+            }
+            else if (nun1 == 0.0)
+            {
+                Console.WriteLine("Eixo Y");
+            }
+            else if (nun2 == 0)
+            {
+                Console.WriteLine("Eixo X");
+            }
+            else if (nun1 > 0.0 && nun2 > 0.0)
+            {
+                Console.WriteLine("Q1");
+            }
+            else if (nun1 < 0.0 && nun2 > 0.0)
+            {
+                Console.WriteLine("Q2");
+            }
+            else if (nun1 < 0.0 && nun2 < 0.0)
+            {
+                Console.WriteLine("Q3");
+            }
+            else
+            {
+                Console.WriteLine("Q4");
+            }
+
         }
     }
 }

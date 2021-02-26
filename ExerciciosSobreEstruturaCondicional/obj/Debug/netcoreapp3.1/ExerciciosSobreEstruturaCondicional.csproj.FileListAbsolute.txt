@@ -1,0 +1,13 @@
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosSobreEstruturaCondicional\bin\Debug\netcoreapp3.1\ExerciciosSobreEstruturaCondicional.exe
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosSobreEstruturaCondicional\bin\Debug\netcoreapp3.1\ExerciciosSobreEstruturaCondicional.deps.json
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosSobreEstruturaCondicional\bin\Debug\netcoreapp3.1\ExerciciosSobreEstruturaCondicional.runtimeconfig.json
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosSobreEstruturaCondicional\bin\Debug\netcoreapp3.1\ExerciciosSobreEstruturaCondicional.runtimeconfig.dev.json
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosSobreEstruturaCondicional\bin\Debug\netcoreapp3.1\ExerciciosSobreEstruturaCondicional.dll
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosSobreEstruturaCondicional\bin\Debug\netcoreapp3.1\ExerciciosSobreEstruturaCondicional.pdb
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosSobreEstruturaCondicional\obj\Debug\netcoreapp3.1\ExerciciosSobreEstruturaCondicional.csprojAssemblyReference.cache
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosSobreEstruturaCondicional\obj\Debug\netcoreapp3.1\ExerciciosSobreEstruturaCondicional.AssemblyInfoInputs.cache
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosSobreEstruturaCondicional\obj\Debug\netcoreapp3.1\ExerciciosSobreEstruturaCondicional.AssemblyInfo.cs
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosSobreEstruturaCondicional\obj\Debug\netcoreapp3.1\ExerciciosSobreEstruturaCondicional.csproj.CoreCompileInputs.cache
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosSobreEstruturaCondicional\obj\Debug\netcoreapp3.1\ExerciciosSobreEstruturaCondicional.dll
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosSobreEstruturaCondicional\obj\Debug\netcoreapp3.1\ExerciciosSobreEstruturaCondicional.pdb
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosSobreEstruturaCondicional\obj\Debug\netcoreapp3.1\ExerciciosSobreEstruturaCondicional.genruntimeconfig.cache
