@@ -19,6 +19,7 @@ namespace ExerciciosSobreEstruturaCondicional
             Console.WriteLine("Exercicio 5      digite 5");
             Console.WriteLine("Exercicio 6      digite 6");
             Console.WriteLine("Exercicio 7      digite 7");
+            Console.WriteLine("Exercicio 8      digite 8");
             Console.WriteLine("--------------------------");
             int esc = 0;
             if (int.TryParse(Console.ReadLine(), out esc))
@@ -52,6 +53,10 @@ namespace ExerciciosSobreEstruturaCondicional
                     case 7:
                         Console.Clear();
                         Exercicio7();
+                        break;
+                    case 8:
+                        Console.Clear();
+                        Exercicio8();
                         break;
                 }
 
@@ -113,6 +118,10 @@ namespace ExerciciosSobreEstruturaCondicional
                             case 7:
                                 Console.Clear();
                                 Exercicio7();
+                                break;
+                            case 8:
+                                Console.Clear();
+                                Exercicio8();
                                 break;
                         }
                     }
@@ -410,6 +419,38 @@ namespace ExerciciosSobreEstruturaCondicional
             else
             {
                 Console.WriteLine("Q4");
+            }
+
+        }
+        public static void Exercicio8() 
+        {
+            double salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            double imposto;
+            if (salario <= 2000.0)
+            {
+                imposto = 0.0;
+            }
+            else if (salario <= 3000.0)
+            {
+                imposto = (salario - 2000.0) * 0.08;
+            }
+            else if (salario <= 4500.0)
+            {
+                imposto = (salario - 3000.0) * 0.18 + 1000.0 * 0.08;
+            }
+            else
+            {
+                imposto = (salario - 4500.0) * 0.28 + 1500.0 * 0.18 + 1000.0 * 0.08;
+            }
+
+            if (imposto == 0.0)
+            {
+                Console.WriteLine("Isento");
+            }
+            else
+            {
+                Console.WriteLine("R$ " + imposto.ToString("F2", CultureInfo.InvariantCulture));
             }
 
         }
