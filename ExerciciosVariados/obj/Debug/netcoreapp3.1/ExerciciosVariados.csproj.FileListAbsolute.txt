@@ -1,0 +1,13 @@
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosVariados\bin\Debug\netcoreapp3.1\ExerciciosVariados.exe
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosVariados\bin\Debug\netcoreapp3.1\ExerciciosVariados.deps.json
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosVariados\bin\Debug\netcoreapp3.1\ExerciciosVariados.runtimeconfig.json
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosVariados\bin\Debug\netcoreapp3.1\ExerciciosVariados.runtimeconfig.dev.json
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosVariados\bin\Debug\netcoreapp3.1\ExerciciosVariados.dll
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosVariados\bin\Debug\netcoreapp3.1\ExerciciosVariados.pdb
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosVariados\obj\Debug\netcoreapp3.1\ExerciciosVariados.csprojAssemblyReference.cache
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosVariados\obj\Debug\netcoreapp3.1\ExerciciosVariados.AssemblyInfoInputs.cache
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosVariados\obj\Debug\netcoreapp3.1\ExerciciosVariados.AssemblyInfo.cs
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosVariados\obj\Debug\netcoreapp3.1\ExerciciosVariados.csproj.CoreCompileInputs.cache
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosVariados\obj\Debug\netcoreapp3.1\ExerciciosVariados.dll
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosVariados\obj\Debug\netcoreapp3.1\ExerciciosVariados.pdb
+C:\Users\Marcos\source\repos\UdemyEx\ExerciciosVariados\obj\Debug\netcoreapp3.1\ExerciciosVariados.genruntimeconfig.cache
