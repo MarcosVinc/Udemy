@@ -11,6 +11,14 @@ namespace ExerciciosVariados
         public double Preco;
         public int Quantidade;
 
+        public Produto (string nome, double preco, int quantidade) 
+        {
+            Nome = nome;
+            Preco = preco;
+            Quantidade = quantidade;
+        
+        }
+
         public double ValorProduto()
         {
             return Quantidade * Preco;

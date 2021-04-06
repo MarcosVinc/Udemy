@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marcos\\source\\repos\\UdemyEx\\ExerciciosVariados\\ExerciciosVariados.csproj",
-      "projectName": "ExerciciosVariados",
-      "projectPath": "C:\\Users\\Marcos\\source\\repos\\UdemyEx\\ExerciciosVariados\\ExerciciosVariados.csproj",
+      "projectUniqueName": "C:\\Users\\Marcos\\source\\repos\\UdemyEx\\ExerciciosVariados\\Seção4.csproj",
+      "projectName": "Seção4",
+      "projectPath": "C:\\Users\\Marcos\\source\\repos\\UdemyEx\\ExerciciosVariados\\Seção4.csproj",
       "packagesPath": "C:\\Users\\Marcos\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Marcos\\source\\repos\\UdemyEx\\ExerciciosVariados\\obj\\",
       "projectStyle": "PackageReference",

@@ -30,6 +30,10 @@ namespace ExerciciosVariados
                         Console.Clear();
                         Exercicio1();
                         break;
+                    case 2:
+                        Console.Clear();
+                        Exercicio2();
+                        break;
 
 
                 }
@@ -95,15 +99,15 @@ namespace ExerciciosVariados
         public static void Exercicio1() 
         {
 
-            Produto p = new Produto();
-
             Console.WriteLine("Entre os dados do produto:");
             Console.Write("Nome: ");
-            p.Nome = Console.ReadLine();
+            string nome = Console.ReadLine();
             Console.Write("Preço: ");
-            p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Quantidade: ");
-            p.Quantidade = int.Parse(Console.ReadLine());
+            int quantidade = int.Parse(Console.ReadLine());
+
+            Produto p = new Produto(nome,  preco, quantidade);
 
             Console.WriteLine();
             Console.Write($"Dados do produto: {p}");
@@ -120,6 +124,10 @@ namespace ExerciciosVariados
             p.RemoverProduto(qte);
             Console.WriteLine($"Dados do produto: {p}");
 
+        }
+        public static void Exercicio2() 
+        {
+        
         }
     }
 }
